@@ -1,0 +1,31 @@
+.example-card {
+    width: 300px;
+    height: 209px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+  .card-image-holder {
+    background-color: black;
+    height: 209px;
+    width: 100%; 
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .card-image {
+    display: block;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+  }
+  
