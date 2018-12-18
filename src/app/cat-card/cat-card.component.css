@@ -1,5 +1,9 @@
 .example-card {
   max-width: 300px;
+  background-color: #f6fefe ;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  max-height: 396px;
 }
 
 .example-header-image {
